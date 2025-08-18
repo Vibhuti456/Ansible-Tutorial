@@ -7,9 +7,9 @@ ansible-galaxy role init httpd
 ```
 <img width="857" height="118" alt="image" src="https://github.com/user-attachments/assets/f80735b9-d3e4-4bdf-9a43-f9e634f401dc" />
 
-role folder httpd has been created and has number of files inside it.
+Role folder httpd has been created and has number of files inside it.
 
-<img width="859" height="253" alt="image" src="https://github.com/user-attachments/assets/021b4243-b20b-4fad-9ca0-6b8c80d63186" />
+<img width="852" height="104" alt="image" src="https://github.com/user-attachments/assets/95979bcf-4388-4b47-a45b-5a7b65db89aa" />
 
 <img width="860" height="199" alt="image" src="https://github.com/user-attachments/assets/ec04e143-498d-455c-821f-00bb57a3bd07" />
 
