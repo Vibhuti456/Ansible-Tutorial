@@ -1,0 +1,8 @@
+---
+- name: Installing Apache Server
+  hosts: myhosts
+  remote_user: ubuntu
+  become: true
+
+  roles:
+    - httpd
