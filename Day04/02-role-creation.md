@@ -30,4 +30,13 @@ Now, using the previous ansible playbook we created a role and define each plays
       └── main.yml
 ```
 
+For checking roles are working fine, we ran ansible-playbook.yml and located the index.html file inside the files folder and ran following command:
+
+```
+ansible-playbook -i inventory.ini first_playbook.yml
+```
+<img width="953" height="290" alt="image" src="https://github.com/user-attachments/assets/54572e08-9f0e-4c4c-be8d-984e5c62f1f8" />
+
+In image we can see that it has changed one task and execute the action wrritten in ansible-playbook in managed node. 
+
 
