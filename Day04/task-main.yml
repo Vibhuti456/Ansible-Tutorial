@@ -1,0 +1,17 @@
+#SPDX-License-Identifier: MIT-0i
+---
+# tasks file for httpd
+
+- name: Apache2 has latest version
+  ansible.builtin.apt:
+    name: apache2
+    state: present
+    update_cache: yes
+
+- name: Copy the html file to the location
+  ansible.builtin.copy:
+    src: files/index.html
+    dest: /var/www/html/index.html
+    owner: root
+    group: root
+    mode: '0644'
