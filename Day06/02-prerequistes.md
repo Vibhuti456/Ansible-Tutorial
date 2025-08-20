@@ -29,6 +29,8 @@ openssl rand -base64 2048 > vault.pass
 ansible-vault create group_vars/all/pass.yml --vault-password-file vault.pass
 ```
 
+### Follow below steps once you created YAML file and install the above step 
+
 3. Now run your playbook with following command
 ```
 ansible-playbook -i inventory.ini ec2-create.yml --vault-password-file vault.pass
