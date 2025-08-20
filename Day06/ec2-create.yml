@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  vars:
+    ansible_python_interpreter: "/home/vibhuti/ec2/myenv/bin/python"
+  roles:
+    - ec2
