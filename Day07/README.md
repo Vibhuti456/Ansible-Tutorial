@@ -5,7 +5,7 @@ Create three(3) EC2 instances on AWS using Ansible loops
 
 2 Instances with Ubuntu Distribution
 
-1 Instance with Centos Distribution
+1 Instance with Amazon Linux Distribution
 
 Hint: Use connection: local on Ansible Control node.
 
